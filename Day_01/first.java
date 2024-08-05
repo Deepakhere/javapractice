@@ -4,41 +4,41 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class first {
-    @SuppressWarnings("resource")
-    public static void main(String[] args) {
-        System.out.println("Hello java");
-        int a, b, sum;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter any two number");
-        a = sc.nextInt();
-        b = sc.nextInt();
-        sum = a + b;
-        System.out.println("Sum of two number is " + sum);
-    }
-}
+// public class first {
+//     @SuppressWarnings("resource")
+//     public static void main(String[] args) {
+//         System.out.println("Hello java");
+//         int a, b, sum;
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter any two number");
+//         a = sc.nextInt();
+//         b = sc.nextInt();
+//         sum = a + b;
+//         System.out.println("Sum of two number is " + sum);
+//     }
+// }
 
-public class first {
-    public static int checkGivenNum(int arr[], int givenNum){
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == givenNum) {
-                return i;
-            }
-        }
-        return -1;
-    }
+// public class first {
+//     public static int checkGivenNum(int arr[], int givenNum){
+//         for (int i = 0; i < arr.length; i++) {
+//             if (arr[i] == givenNum) {
+//                 return i;
+//             }
+//         }
+//         return -1;
+//     }
 
-    public static void main(String[] args) {
-        int[] arr = {2,3,5,6,1};
-        int givenNum = 6;
-        int check = checkGivenNum(arr,givenNum);
-        if (check > -1) {
-            System.out.println(check);
-        }else{
-            System.out.println("Number is not found");
-        }
-    }
-}
+//     public static void main(String[] args) {
+//         int[] arr = {2,3,5,6,1};
+//         int givenNum = 6;
+//         int check = checkGivenNum(arr,givenNum);
+//         if (check > -1) {
+//             System.out.println(check);
+//         }else{
+//             System.out.println("Number is not found");
+//         }
+//     }
+// }
 
 public class first {
     @SuppressWarnings("resource")
